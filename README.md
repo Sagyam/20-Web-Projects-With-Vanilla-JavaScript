@@ -1,8 +1,10 @@
 # [20 Web Projects With Vanilla JavaScript](https://www.udemy.com/course/web-projects-with-vanilla-javascript)
 
-![cover](./webprojects_website.png)
+![cover](./assets/course-banner.png)
 
 20 Mini Projects using HTML, CSS &amp; Vanilla JavaScript.
+
+Taught by [Brad traversy](https://traversymedia.com)
 
 ## Topics Covered
 
