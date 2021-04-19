@@ -42,3 +42,4 @@ Taught by [Brad traversy](https://traversymedia.com)
 | 01  |      [Form Validator](https://github.com/Sagyam/20-Web-Projects-With-Vanilla-JavaScript/tree/main/form-validator)      |   [Live Demo](https://sagyamthapa.me/20-Web-Projects-With-Vanilla-JavaScript/form-validator/)    |
 | 02  | [Movie Ticket Booking](https://github.com/Sagyam/20-Web-Projects-With-Vanilla-JavaScript/tree/main/movie-seat-booking) | [Live Demo](https://sagyamthapa.me/20-Web-Projects-With-Vanilla-JavaScript/movie-seat-booking/)  |
 | 03  | [Custom Video Player](https://github.com/Sagyam/20-Web-Projects-With-Vanilla-JavaScript/tree/main/custom-video-player) | [Live Demo](https://sagyamthapa.me/20-Web-Projects-With-Vanilla-JavaScript/custom-video-player/) |
+| 03  |     [Currency Exchange](https://github.com/Sagyam/20-Web-Projects-With-Vanilla-JavaScript/tree/main/exchange-rate)     |    [Live Demo](https://sagyamthapa.me/20-Web-Projects-With-Vanilla-JavaScript/exchange-rate)     |
