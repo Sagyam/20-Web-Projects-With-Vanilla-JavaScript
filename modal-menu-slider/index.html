@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>My Landing Page</title>
+	</head>
+	<body>
+		<nav>
+			<div class="logo">
+				<img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+			</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<button class="toggle" id="toggle">
+				<i class="fa fa-bars fa-2x"></i>
+			</button>
+			<h1>My Landing Page</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, ut!</p>
+			<button class="cta-btn" id="open">Sign Up</button>
+		</header>
+
+		<div class="container">
+			<h2>What is this landing page about</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ad
+				assumenda officia, molestias deserunt ratione obcaecati officiis
+				accusamus totam natus voluptatum. Nemo similique accusantium sit
+				distinctio totam nostrum libero ut.
+			</p>
+
+			<h2>Tell me more</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea recusandae,
+				voluptatem aliquam quam assumenda dignissimos qui itaque eveniet
+				quibusdam consectetur, alias nihil inventore? Dignissimos magnam,
+				dolores blanditiis iste accusamus repellat ex! Autem recusandae nisi
+				reprehenderit saepe quam expedita sed facilis?
+			</p>
+			<h2>Benifits</h2>
+			<ul>
+				<li>Lifetime Access</li>
+				<li>30 Days Money Back</li>
+				<li>Tailore Customer Support</li>
+			</ul>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus,
+				officia, quis laudantium ipsa sequi, quam quisquam dolorem ut adipisci
+				voluptatem placeat illum! Aliquam dolor facilis voluptatibus aliquid
+				asperiores soluta earum provident, quo accusantium neque amet
+				praesentium officiis eveniet fugit, eius eum similique quod cumque, ipsa
+				suscipit tempora unde ex quibusdam mollitia. Illum at exercitationem
+				placeat ad expedita beatae, vel numquam maxime iure aperiam? Iste vitae
+				voluptatibus unde tempora adipisci necessitatibus.
+			</p>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal-container" id="modal">
+			<div class="modal">
+				<button class="close-btn" id="close">
+					<i class="fa fa-times"></i>
+				</button>
+				<div class="modal-header">
+					<h3>Sign Up</h3>
+				</div>
+				<div class="modal-content">
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum,
+						beatae.
+					</p>
+					<form action="" class="modal-form">
+						<div>
+							<label for="Name"></label>
+							<input
+								class="form-input"
+								type="text"
+								id="name"
+								placeholder="Enter Name"
+							/>
+						</div>
+						<div>
+							<label for="Email"></label>
+							<input
+								class="form-input"
+								type="email"
+								id="email"
+								placeholder="Enter Email"
+							/>
+						</div>
+						<div>
+							<label for="password"></label>
+							<input
+								class="form-input"
+								type="password"
+								id="password"
+								placeholder="Enter password"
+							/>
+						</div>
+						<div>
+							<label for="password2"></label>
+							<input
+								class="form-input"
+								type="password"
+								id="password2"
+								placeholder="Confirm Password"
+							/>
+						</div>
+						<input type="submit" value="Submit" class="submit-btn" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="./script.js"></script>
+</html>
