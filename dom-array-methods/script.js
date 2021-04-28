@@ -1,7 +1,7 @@
 const main = document.getElementById("main");
 const addUserBtn = document.getElementById("add-user");
 const doubleBtn = document.getElementById("double");
-const showMillionareBtn = document.getElementById("show-millionare");
+const showMillionareBtn = document.getElementById("show-millionaires");
 const sortBtn = document.getElementById("sort");
 const calculateBtn = document.getElementById("calculate-wealth");
 
@@ -73,12 +73,13 @@ function showMillionare() {
 
 //Calculate total Wealth
 function calculateWealth() {
-	const total = data.reduce((acc, user) => (acc += user.money));
+	const wealth = data.reduce((acc, user) => (acc += user.money), 0);
 
-	const totalEl = document.createElement("div");
-	totalEl.innerHTML =
-		"<h3> Total Wealth : <strong> ${formatMoney(total) </strong> </h3>}";
-	main.appendChild(totalEl);
+	const wealthEl = document.createElement("div");
+	wealthEl.innerHTML = `<h3>Total Wealth: <strong>${formatMoney(
+		wealth
+	)}</strong></h3>`;
+	main.appendChild(wealthEl);
 }
 
 //Event Listners
